@@ -35,6 +35,7 @@ const getData = async(url="")=>{
             document.querySelector("#temp").innerHTML = ``;
             document.querySelector("#content").innerHTML = ``; 
             document.getElementById("error").style.display="block";
+            document.getElementById("icon").style.display ="none"  ;
             document.getElementById("error").innerHTML = `${data.message}`;
 
         } else {
@@ -55,7 +56,8 @@ const updateUi = async ()=>{
         const allData = await res.json();    
         document.querySelector("#date").innerHTML = `Date: ${allData.date}`;
         document.querySelector("#city").innerHTML = `City: ${allData.name}`;
-        document.querySelector("#temp").innerHTML = `Temp: ${allData.temp} °C`;
+        document.querySelector("#temp").innerHTML = `${allData.temp}°C`;
+        document.getElementById("icon").style.display ="inline"  ;
         document.querySelector("#content").innerHTML = `Feeling: ${allData.feel}`;   
         
     }catch(e){
