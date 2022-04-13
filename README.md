@@ -15,5 +15,5 @@ The second project of the Nanodegree Scholarship in Web Development by Udacity
 
 ## To run this app
 * 1- Open cmd in same directory and run the command 'npm install' to install the dependencies.
-* 2- Run the app with Command "node server.js" and open url http://127.0.0.1:3000/ in the browser.
+* 2- Run the app with Command `node server.js` and open url http://127.0.0.1:3000/ in the browser.
 
