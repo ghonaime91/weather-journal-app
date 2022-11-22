@@ -38,6 +38,7 @@ body{
     padding-bottom: 5px;
     color: #fff;
     position: relative;
+    border-radius: 5px;
 }
 
 
@@ -126,6 +127,7 @@ button{
     font-family: 'Oswald', sans-serif;
     border: none;
     box-shadow: 2px 4px 5px #444;
+    border-radius: 5px;
 }
 h1{
     font-size: 36px;
@@ -137,6 +139,7 @@ textarea{
     font-size: 20px;
     font-family: 'Oswald', sans-serif;
     height: 70px;
+    border-radius: 5px;
 }
 /* Reset style for HTML element on active to have no border*/
 input:focus,
@@ -174,6 +177,7 @@ label.zipholder{
 .inputzip{
     margin-top: -10px;
     padding-top: 0%;
+    border-radius: 5px;
 }
  #error{
     text-align: center;
