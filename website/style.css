@@ -37,6 +37,7 @@ body{
     padding-left: 7px;
     padding-bottom: 5px;
     color: #fff;
+    position: relative;
 }
 
 
@@ -71,9 +72,10 @@ body{
     font-size: 62pt;
 }
 #content{
-    position: relative;
+    position: absolute;
     bottom: 128px;
     align-self: center;
+    bottom: 10%;
 } 
 #icon{
    
